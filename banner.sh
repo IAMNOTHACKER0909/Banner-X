@@ -58,6 +58,9 @@ setup_termux() {
     install_pkg zsh
     install_pkg curl
     install_pkg git
+if ! command -v lolcat &> /dev/null; then                                                   echo -e "\e[94m[*]\e[0m \e[92mInstalling lolcat...\e[0m"
+    gem install lolcat
+fi   
     echo ""
     echo -e "${GREEN}Termux setup complete!${RESET}"
     sleep 2
