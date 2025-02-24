@@ -7,21 +7,25 @@ Banner-X is a powerful and customizable tool for modifying the banner and prompt
 
 # Features
 
-✅ Customizable Termux banner
+✅ **Customizable Termux banner**
 
-✅ Supports Bash, Zsh, and Oh My Zsh
+✅ **Supports Bash, Zsh, and Oh My Zsh**
 
-✅ Easy setup and installation
+✅ **Easy setup and installation**
 
-✅ Lightweight and fast
+✅ **Lightweight and fast**
 
-✅ Open-source and free
+✅**zsh-syntax-highlighting setup**
+
+✅ **zsh-autosuggestions setup**
+
+✅ **Open-source and free**
 
 
 ---
 
 # screenshot
-
+![My Image](image)
 
 ---
 # Installation Termux
@@ -48,25 +52,13 @@ After installation, restart Termux to see the new banner. To change or update th
 
 
 ---
-
-# Requirements
-
-📌 Termux
-
-📌 Git
-
-📌 Bash or Zsh
-
-
----
-
 # Contact
 
 For any issues or suggestions, reach out via:
 
 💬 GitHub Issues
 
-📧 Email: your-email@example.com
+📧 Email: -email@example.com
 
 
 🌟 Show some love! Give this project a ⭐ on GitHub!
