@@ -1,20 +1,34 @@
 # Banner-X
 
-Banner-X is a Termux customization tool that allows users to set up Zsh, Bash, and Oh My Zsh, change Termux banners, and enhance the Termux experience.
-![My Image](IMG_20250212_233511.jpg)
-![My Image](IMG_20250213_004213.jpg)
-![My Image](IMG_20250213_004021.jpg)
-# 📌 Features
-- Customize Termux banners
-- Install and configure Zsh, Bash, and Oh My Zsh
-- Easy-to-use interface
-
-# 📱 Installation Termux
+Banner-X is a powerful and customizable tool for modifying the banner and prompt in Termux. It allows users to personalize their Termux experience with custom banners, themes, and shell configurations.
 
 
-`pkg install git`
+---
 
-`git clone https://github.com/Rakibul0909/Banner-X`
+# Features
+
+✅ Customizable Termux banner
+
+✅ Supports Bash, Zsh, and Oh My Zsh
+
+✅ Easy setup and installation
+
+✅ Lightweight and fast
+
+✅ Open-source and free
+
+
+---
+
+# screenshot
+
+
+---
+# Installation Termux
+
+`pkg install git -y`
+
+`git clone   https://github.com/Rakibul0909/Banner-X.git`
 
 `cd Banner-X`
 
@@ -22,4 +36,38 @@ Banner-X is a Termux customization tool that allows users to set up Zsh, Bash, a
 
 `./banner.sh`
 
-# Thanks for watching
+
+---
+
+# run
+
+After installation, restart Termux to see the new banner. To change or update the banner, run:
+
+``./banner.sh``
+
+
+
+---
+
+# Requirements
+
+📌 Termux
+
+📌 Git
+
+📌 Bash or Zsh
+
+
+---
+
+# Contact
+
+For any issues or suggestions, reach out via:
+
+💬 GitHub Issues
+
+📧 Email: your-email@example.com
+
+
+🌟 Show some love! Give this project a ⭐ on GitHub!
+
