@@ -160,6 +160,13 @@ EOF
 sleep 2
 }
 
+cursor() {
+mkdir -p ~/.termux
+echo "cursor = #00FFFF" > ~/.termux/colors.properties
+echo ""
+echo -e "${GREEN}cursor setup Successfully!${RESET}"
+sleep 2
+}
 remove_banner() {
     rm -f ~/.zshrc
     rm -f ~/.bashrc
@@ -177,9 +184,9 @@ while true; do
     echo -e " ${CYAN}[${GREEN}2${CYAN}] Install Oh My Zsh${RESET}"
     echo -e " ${CYAN}[${GREEN}3${CYAN}] Install Autosuggestions${RESET}"
     echo -e " ${CYAN}[${GREEN}4${CYAN}] Install Syntax Highlighting${RESET}"
-    echo -e " ${CYAN}[${GREEN}5${CYAN}] Install Figlet Font${RESET}"
-    echo -e " ${CYAN}[${GREEN}6${CYAN}] Setup Banner${RESET}"
-    echo -e " ${CYAN}[${GREEN}7${CYAN}] Remove Banner${RESET}"
+    echo -e " ${CYAN}[${GREEN}5${CYAN}] cursor setup"
+    echo -e " ${CYAN}[${GREEN}6${CYAN}] Install Figlet Font${RESET}"
+    echo -e " ${CYAN}[${GREEN}7${CYAN}] Setup Banner${RESET}"
     echo -e " ${CYAN}[${GREEN}8${CYAN}] Exit${RESET}"
     echo -e "${RANDOM_COLOR}========================================${RESET}"
     echo ""
@@ -191,9 +198,9 @@ while true; do
         2) setup_ohmyzsh ;;
         3) install_autosuggestions ;;
         4) install_highlighting ;;
-        5) install_figlet ;;
-        6) setup_banner ;;
-        7) remove_banner ;;
+        5) cursor setup ;;
+        6) install_figlet ;;
+        7) setup_banner ;;
         8) echo "Exiting..."; exit 0 ;;
         *) echo -e "${RED}Invalid Option!${RESET}"; sleep 2 ;;
     esac
