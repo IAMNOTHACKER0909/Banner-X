@@ -91,7 +91,7 @@ setup_ohmyzsh() {
 
         rm -rf "$HOME/.oh-my-zsh"
     fi
-    echo""
+    echo ""
     echo -e "\e[1;94m[*]\e[0m \e[1;92mInstalling Oh My Zsh...\e[0m"
     git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
     echo ""
