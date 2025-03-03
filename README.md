@@ -38,7 +38,7 @@ Banner-X is a powerful and customizable tool for modifying the banner and prompt
 
 `chmod +x banner.sh`
 
-`./banner.sh`
+`bash banner.sh`
 
 
 ---
@@ -47,7 +47,7 @@ Banner-X is a powerful and customizable tool for modifying the banner and prompt
 
 After installation, restart Termux to see the new banner. To change or update the banner, run:
 
-``./banner.sh``
+``bash banner.sh``
 
 
 
