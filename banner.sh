@@ -65,6 +65,12 @@ install_pkg() {
 
 # Termux Setup
 setup_termux() {
+    pkill -9 apt
+    pkill -9 dpkg
+    pkill -9 pkg
+    rm -rf /data/data/com.termux/cache/apt/archives/lock
+    rm -rf /data/data/com.termux/files/usr/var/lib/dpkg/lock
+    rm -rf /data/data/com.termux/files/usr/var/lib/dpkg/lock-frontend
     echo ""
     echo -e "\e[1;94m[*]\e[0m \e[1;92mUpdating Termux...\e[0m"
     pkg update -y && pkg upgrade -y
