@@ -167,11 +167,12 @@ sleep 2
 }
 
 cursor() {
-mkdir -p ~/.termux
-echo "cursor = #00FFFF" > ~/.termux/colors.properties
-echo ""
-echo -e "${GREEN}cursor setup Successfully!${RESET}"
-sleep 2
+    mkdir -p ~/.termux
+    echo "background = #282a36" > ~/.termux/colors.properties
+    echo "cursor = #00FFFF" >> ~/.termux/colors.properties
+    echo ""
+    echo -e "${GREEN}Cursor and Background setup Successfully!${RESET}"
+    sleep 2
 }
 remove_banner() {
     rm -f ~/.zshrc
