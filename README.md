@@ -30,6 +30,8 @@ Banner-X is a powerful and customizable tool for modifying the banner and prompt
 ---
 # Installation Termux
 
+`pkg update && pkg upgrade -y`
+
 `pkg install git -y`
 
 `git clone   https://github.com/Rakibul0909/Banner-X.git`
