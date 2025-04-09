@@ -27,9 +27,9 @@ Rakibul() {
 }
 show_banner() {
     echo -e "\e[1;35m      +----------------------------------------+\e[0m"
-    echo -e "\e[1;35m      |\e[1;33m Code   : ★ Rakibul ★                   \e[1;35m|\e[0m"
-    echo -e "\e[1;35m      |\e[1;33m Github : https://github.com/Rakibul0909\e[1;35m|\e[0m"
-    echo -e "\e[1;35m      |\e[1;33m YouTube: ?                             \e[1;35m|\e[0m"
+    echo -e "\e[1;35m      |\e[1;33m Code   : ★ I AM NOT HACKER ★                   \e[1;35m|\e[0m"
+    echo -e "\e[1;35m      |\e[1;33m Github : https://github.com/IAMNOTHACKER0909\e[1;35m|\e[0m"
+    echo -e "\e[1;35m      |\e[1;33m YouTube: I AM NOT HACKER                           \e[1;35m|\e[0m"
     echo -e "\e[1;35m      +----------------------------------------+\e[0m"
 }
 animation() {
