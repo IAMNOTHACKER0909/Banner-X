@@ -34,7 +34,7 @@ Banner-X is a powerful and customizable tool for modifying the banner and prompt
 
 `pkg install git -y`
 
-`git clone https://github.com/IAMNOTHACKER0909/Banner-X.git`
+`git clone https://github.com/Rakibul0909/Banner-X.git`
 
 `cd Banner-X`
 
